@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background:#39f url(../img/background.png);
+}
+
+.container{
+	width:1024px;
+	min-height:768px;
+	background:url(../img/bg.jpg) no-repeat;
+	margin:50px auto;
+	border:1px solid #fff;
+	position:relative;
+}
+
+
+@font-face{
+	font-family:Best_Future_Bold;
+	src:url(../fonts/Best_Future_Bold_V1.otf);
+}
+
+h1{
+	color:#fff;
+	text-align:center;
+	padding:110px;
+	font-family:Best_Future_Bold;
+	text-shadow:1px 1px 3px #000;
+}
+
+section{
+	width:700px;
+	height:400px;
+	background:rgba(0, 0, 0, 0.3);
+	position:absolute;
+	left:162px;
+	top:150px;
+	border-top-left-radius:38px;
+	border-top-right-radius:0px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:0px;
+	border:3px solid #fff;
+}
+
+article{
+	position:absolute;
+	left:6px;
+	top:6px;
+	width:680px;
+	display:none;
+}
+
+article img{
+	float:left;
+}
+
+@font-face{
+	font-family:Best_Future_Light;
+	src:url(fonts/Best_Future_Light_V1.otf);
+}
+
+article p{
+	font-size:1.1em;
+	line-height:1.2em;
+	color:#fff;
+	text-shadow:1px 1px 2px #000;
+	font-family:Best_Future_Light;
+	float:right;
+	width:385px;
+	margin-bottom:15px;
+}
+
+article span.amarillo{
+	color:yellow;
+}
+
+article span.verde{
+	color:rgba(103,241,103,1.00);
+}
+
+nav{
+	width:700px;
+	height:60px;
+	border:3px solid #fff;
+	position:absolute;
+	left:162px;
+	top:565px;
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:38px;
+	background:rgba(0, 0, 0, 0.3);
+}
+
+nav ul{
+	list-style:none;
+	margin-top:22px;
+}
+
+nav ul li{
+	width:33%;
+	float:left;
+	text-align:center;
+	font-family:Best_Future_Bold;
+}
+
+nav ul li a:link, nav ul li a:visited{
+	text-decoration:none;
+	border:1px #fff solid;
+	color:#fff;
+	padding:15px 75px;
+}
+
+nav ul li:last-child a:link,  nav ul li:last-child a:visited{
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:38px;
+}
+
+nav ul li a:hover{
+	background:#fff;
+	color:#666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
